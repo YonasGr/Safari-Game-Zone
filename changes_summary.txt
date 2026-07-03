@@ -1,0 +1,8 @@
+I have implemented the Ethio Bingo bot in JavaScript/TypeScript.
+Key features:
+- Core game logic for 75-ball and 90-ball bingo (GameService.ts)
+- Firebase/Firestore integration for persistence (RoomRepository.ts, CardRepository.ts)
+- Express API and Socket.io for real-time game events (server.ts)
+- Telegraf-based Telegram bot for Mini App integration (telegramBot.ts)
+- Mini App frontend with real-time updates (index.html, app.js)
+- Comprehensive unit tests for game logic and room lifecycle.
